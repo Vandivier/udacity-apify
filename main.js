@@ -146,49 +146,52 @@ async function fpScrapeInputRecord(oRecord) {
         await _page.content()
         _page.on('console', _fCleanLog); // ref: https://stackoverflow.com/a/47460782/3931488
 
-        oScrapeResult = await _page.evaluate((_iCurrentInputRecord) => {
+        oScrapeResult = await _page.evaluate(async function (_iCurrentInputRecord) {
             const script = document.createElement('script') // inject jQuery
             script.src = 'https://code.jquery.com/jquery-3.3.1.js'; // inject jQuery
             document.getElementsByTagName('head')[0].appendChild(script); // inject jQuery
             console.log('scraping: ' + window.location.href);
 
             // toast message will disappear if you wait too long
-            return _fpWait(1000)
-                .then(function () {
-                    let arr$Affiliations = $('#affiliation-body a[name=subaffil]');
-                    let sarrAffiliations = '';
-                    let _oResult = {
-                        'sName':  $('h1[class*="user--name"]').html(),
-                        'sEmail': $('.emaillabel').parent().find('td span').text(),
-                        'sUserName': '', //sUsername
-                        'iEducationCount': $('div[class*="educations--section"] div[class*="_education--education"]').length,
-                        'sLinkedInUrl': $('a[title="LINKEDIN"]').attr('href'),
-                        'sResumeUrl': $('a[title="Resume"]').attr('href'),
-                        'bUserExists': $('[class*=profile-container]').length > 0,
-                        'bProfileIsPrivate': $('[class*="toast--message"]').html() === 'Profile is private',
-                        'bTooManyRequestsError': _fsSafeTrim($('[class*="toast--message"]').html()) === 'Too many requests',
-                        'bOtherError': false,
-                        'bPresentlyEmployed': $('div[class*="works--section"] div[class*="_work--work"] span[class*="_work--present"]').length > 0,
-                        'sProfileLastUpdate': $('div[class*="profile--updated"]').text().split(': ')[1],
-                        'iTriesRemaining': '' //oResponse.triesRemaining
-                    };
+            await _fpWait(1000);
 
-                    arr$Affiliations && arr$Affiliations.each(function (arr, el) {
-                        let sTrimmed = _fsSafeTrim(el.innerText.replace(/\s/g, ' '));
-                        _oResult.sarrAffiliations += ('~' + sTrimmed);
-                    });
+            let arr$Affiliations = $('#affiliation-body a[name=subaffil]');
+            let sarrAffiliations = '';
+            let _oResult = {
+                'bUserExists': $('[class*=profile-container]').length > 0,
+                'bProfileIsPrivate': $('[class*="toast--message"]').html() === 'Profile is private',
+                'bTooManyRequestsError': _fsSafeTrim($('[class*="toast--message"]').html()) === 'Too many requests'
+            };
 
-                    return Promise.resolve(_oResult);
-                })
-                .catch(function (err) {
-                    console.log('fpScrapeInputRecord err: ', err);
-                    return err;
+            // wait a bit longer for UI to render if it is a valid scrape target
+            if (!_oResult.bProfileIsPrivate
+                && !_oResult.bTooManyRequestsError)
+            {
+                await _fpWait(3000);
+
+                _oResult.sName = $('h1[class*="user--name"]').html();
+                _oResult.sEmail = $('.emaillabel').parent().find('td span').text();
+                _oResult.sUserName = '';
+                _oResult.iEducationCount = $('div[class*="educations--section"] div[class*="_education--education"]').length;
+                _oResult.sLinkedInUrl = $('a[title="LINKEDIN"]').attr('href');
+                _oResult.sResumeUrl = $('a[title="Resume"]').attr('href');
+                _oResult.bOtherError = false;
+                _oResult.bPresentlyEmployed = $('div[class*="works--section"] div[class*="_work--work"] span[class*="_work--present"]').length > 0;
+                _oResult.sProfileLastUpdate = $('div[class*="profile--updated"]').text().split(': ')[1];
+                _oResult.iTriesRemaining = ''; // TODO: remove
+
+                arr$Affiliations && arr$Affiliations.each(function (arr, el) {
+                    let sTrimmed = _fsSafeTrim(el.innerText.replace(/\s/g, ' '));
+                    _oResult.sarrAffiliations += ('~' + sTrimmed);
                 });
+            }
+
+            return Promise.resolve(_oResult);
 
             // larger time allows for slow site response
             // some times of day when it's responding fast u can get away
             // with smaller ms; suggested default of 12.5s
-            function _fpWait (ms) {
+            async function _fpWait (ms) {
                 ms = ms || 10000;
                 return new Promise(resolve => setTimeout(resolve, ms));
             }

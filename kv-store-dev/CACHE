@@ -135,15 +135,9 @@
       "iModifiedIncrement": 8,
       "sId": "john8",
       "sUrl": "https://profiles.udacity.com/u/john8",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "john9": {
       "sFirstName": "john",
@@ -548,7 +542,7 @@
       "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
+      "bTooManyRequestsError": false,
       "bOtherError": false,
       "bPresentlyEmployed": false,
       "iTriesRemaining": ""
@@ -563,8 +557,8 @@
       "sUserName": "",
       "iEducationCount": 0,
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false,
       "bOtherError": false,
       "bPresentlyEmployed": false,
       "iTriesRemaining": ""
@@ -579,8 +573,8 @@
       "sUserName": "",
       "iEducationCount": 0,
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false,
       "bOtherError": false,
       "bPresentlyEmployed": false,
       "iTriesRemaining": ""
@@ -595,8 +589,8 @@
       "sUserName": "",
       "iEducationCount": 0,
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false,
       "bOtherError": false,
       "bPresentlyEmployed": false,
       "iTriesRemaining": ""
@@ -612,7 +606,7 @@
       "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
+      "bTooManyRequestsError": false,
       "bOtherError": false,
       "bPresentlyEmployed": false,
       "iTriesRemaining": ""
@@ -627,8 +621,8 @@
       "sUserName": "",
       "iEducationCount": 0,
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false,
       "bOtherError": false,
       "bPresentlyEmployed": false,
       "iTriesRemaining": ""
@@ -639,15 +633,9 @@
       "iModifiedIncrement": 10,
       "sId": "william10",
       "sUrl": "https://profiles.udacity.com/u/william10",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "william11": {
       "sFirstName": "william",
@@ -663,15 +651,9 @@
       "iModifiedIncrement": 0,
       "sId": "michael",
       "sUrl": "https://profiles.udacity.com/u/michael",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael1": {
       "sFirstName": "michael",
@@ -679,15 +661,9 @@
       "iModifiedIncrement": 1,
       "sId": "michael1",
       "sUrl": "https://profiles.udacity.com/u/michael1",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael2": {
       "sFirstName": "michael",
@@ -695,15 +671,9 @@
       "iModifiedIncrement": 2,
       "sId": "michael2",
       "sUrl": "https://profiles.udacity.com/u/michael2",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael3": {
       "sFirstName": "michael",
@@ -711,15 +681,9 @@
       "iModifiedIncrement": 3,
       "sId": "michael3",
       "sUrl": "https://profiles.udacity.com/u/michael3",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael4": {
       "sFirstName": "michael",
@@ -727,15 +691,9 @@
       "iModifiedIncrement": 4,
       "sId": "michael4",
       "sUrl": "https://profiles.udacity.com/u/michael4",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael5": {
       "sFirstName": "michael",
@@ -743,15 +701,9 @@
       "iModifiedIncrement": 5,
       "sId": "michael5",
       "sUrl": "https://profiles.udacity.com/u/michael5",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael6": {
       "sFirstName": "michael",
@@ -759,15 +711,9 @@
       "iModifiedIncrement": 6,
       "sId": "michael6",
       "sUrl": "https://profiles.udacity.com/u/michael6",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael7": {
       "sFirstName": "michael",
@@ -775,15 +721,9 @@
       "iModifiedIncrement": 7,
       "sId": "michael7",
       "sUrl": "https://profiles.udacity.com/u/michael7",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael8": {
       "sFirstName": "michael",
@@ -791,15 +731,9 @@
       "iModifiedIncrement": 8,
       "sId": "michael8",
       "sUrl": "https://profiles.udacity.com/u/michael8",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael9": {
       "sFirstName": "michael",
@@ -807,15 +741,9 @@
       "iModifiedIncrement": 9,
       "sId": "michael9",
       "sUrl": "https://profiles.udacity.com/u/michael9",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael10": {
       "sFirstName": "michael",
@@ -823,15 +751,9 @@
       "iModifiedIncrement": 10,
       "sId": "michael10",
       "sUrl": "https://profiles.udacity.com/u/michael10",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael11": {
       "sFirstName": "michael",
@@ -839,15 +761,9 @@
       "iModifiedIncrement": 11,
       "sId": "michael11",
       "sUrl": "https://profiles.udacity.com/u/michael11",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael12": {
       "sFirstName": "michael",
@@ -855,15 +771,9 @@
       "iModifiedIncrement": 12,
       "sId": "michael12",
       "sUrl": "https://profiles.udacity.com/u/michael12",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael13": {
       "sFirstName": "michael",
@@ -871,15 +781,9 @@
       "iModifiedIncrement": 13,
       "sId": "michael13",
       "sUrl": "https://profiles.udacity.com/u/michael13",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael14": {
       "sFirstName": "michael",
@@ -887,15 +791,9 @@
       "iModifiedIncrement": 14,
       "sId": "michael14",
       "sUrl": "https://profiles.udacity.com/u/michael14",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael15": {
       "sFirstName": "michael",
@@ -903,15 +801,9 @@
       "iModifiedIncrement": 15,
       "sId": "michael15",
       "sUrl": "https://profiles.udacity.com/u/michael15",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael16": {
       "sFirstName": "michael",
@@ -919,15 +811,9 @@
       "iModifiedIncrement": 16,
       "sId": "michael16",
       "sUrl": "https://profiles.udacity.com/u/michael16",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael17": {
       "sFirstName": "michael",
@@ -935,15 +821,9 @@
       "iModifiedIncrement": 17,
       "sId": "michael17",
       "sUrl": "https://profiles.udacity.com/u/michael17",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael18": {
       "sFirstName": "michael",
@@ -951,15 +831,9 @@
       "iModifiedIncrement": 18,
       "sId": "michael18",
       "sUrl": "https://profiles.udacity.com/u/michael18",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael19": {
       "sFirstName": "michael",
@@ -967,15 +841,9 @@
       "iModifiedIncrement": 19,
       "sId": "michael19",
       "sUrl": "https://profiles.udacity.com/u/michael19",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael20": {
       "sFirstName": "michael",
@@ -983,15 +851,9 @@
       "iModifiedIncrement": 20,
       "sId": "michael20",
       "sUrl": "https://profiles.udacity.com/u/michael20",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael21": {
       "sFirstName": "michael",
@@ -999,15 +861,9 @@
       "iModifiedIncrement": 21,
       "sId": "michael21",
       "sUrl": "https://profiles.udacity.com/u/michael21",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael22": {
       "sFirstName": "michael",
@@ -1015,15 +871,9 @@
       "iModifiedIncrement": 22,
       "sId": "michael22",
       "sUrl": "https://profiles.udacity.com/u/michael22",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael23": {
       "sFirstName": "michael",
@@ -1031,15 +881,9 @@
       "iModifiedIncrement": 23,
       "sId": "michael23",
       "sUrl": "https://profiles.udacity.com/u/michael23",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael24": {
       "sFirstName": "michael",
@@ -1047,15 +891,9 @@
       "iModifiedIncrement": 24,
       "sId": "michael24",
       "sUrl": "https://profiles.udacity.com/u/michael24",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael25": {
       "sFirstName": "michael",
@@ -1063,15 +901,9 @@
       "iModifiedIncrement": 25,
       "sId": "michael25",
       "sUrl": "https://profiles.udacity.com/u/michael25",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael26": {
       "sFirstName": "michael",
@@ -1079,15 +911,9 @@
       "iModifiedIncrement": 26,
       "sId": "michael26",
       "sUrl": "https://profiles.udacity.com/u/michael26",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael27": {
       "sFirstName": "michael",
@@ -1095,15 +921,9 @@
       "iModifiedIncrement": 27,
       "sId": "michael27",
       "sUrl": "https://profiles.udacity.com/u/michael27",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael28": {
       "sFirstName": "michael",
@@ -1111,15 +931,9 @@
       "iModifiedIncrement": 28,
       "sId": "michael28",
       "sUrl": "https://profiles.udacity.com/u/michael28",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael29": {
       "sFirstName": "michael",
@@ -1127,15 +941,9 @@
       "iModifiedIncrement": 29,
       "sId": "michael29",
       "sUrl": "https://profiles.udacity.com/u/michael29",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael30": {
       "sFirstName": "michael",
@@ -1143,15 +951,9 @@
       "iModifiedIncrement": 30,
       "sId": "michael30",
       "sUrl": "https://profiles.udacity.com/u/michael30",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael31": {
       "sFirstName": "michael",
@@ -1159,15 +961,9 @@
       "iModifiedIncrement": 31,
       "sId": "michael31",
       "sUrl": "https://profiles.udacity.com/u/michael31",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael32": {
       "sFirstName": "michael",
@@ -1175,15 +971,9 @@
       "iModifiedIncrement": 32,
       "sId": "michael32",
       "sUrl": "https://profiles.udacity.com/u/michael32",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael33": {
       "sFirstName": "michael",
@@ -1191,15 +981,9 @@
       "iModifiedIncrement": 33,
       "sId": "michael33",
       "sUrl": "https://profiles.udacity.com/u/michael33",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael34": {
       "sFirstName": "michael",
@@ -1207,15 +991,9 @@
       "iModifiedIncrement": 34,
       "sId": "michael34",
       "sUrl": "https://profiles.udacity.com/u/michael34",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael35": {
       "sFirstName": "michael",
@@ -1223,15 +1001,9 @@
       "iModifiedIncrement": 35,
       "sId": "michael35",
       "sUrl": "https://profiles.udacity.com/u/michael35",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael36": {
       "sFirstName": "michael",
@@ -1239,15 +1011,9 @@
       "iModifiedIncrement": 36,
       "sId": "michael36",
       "sUrl": "https://profiles.udacity.com/u/michael36",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael37": {
       "sFirstName": "michael",
@@ -1255,15 +1021,9 @@
       "iModifiedIncrement": 37,
       "sId": "michael37",
       "sUrl": "https://profiles.udacity.com/u/michael37",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael38": {
       "sFirstName": "michael",
@@ -1271,15 +1031,9 @@
       "iModifiedIncrement": 38,
       "sId": "michael38",
       "sUrl": "https://profiles.udacity.com/u/michael38",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael39": {
       "sFirstName": "michael",
@@ -1287,15 +1041,9 @@
       "iModifiedIncrement": 39,
       "sId": "michael39",
       "sUrl": "https://profiles.udacity.com/u/michael39",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael40": {
       "sFirstName": "michael",
@@ -1303,15 +1051,9 @@
       "iModifiedIncrement": 40,
       "sId": "michael40",
       "sUrl": "https://profiles.udacity.com/u/michael40",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael41": {
       "sFirstName": "michael",
@@ -1319,15 +1061,9 @@
       "iModifiedIncrement": 41,
       "sId": "michael41",
       "sUrl": "https://profiles.udacity.com/u/michael41",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael42": {
       "sFirstName": "michael",
@@ -1335,15 +1071,9 @@
       "iModifiedIncrement": 42,
       "sId": "michael42",
       "sUrl": "https://profiles.udacity.com/u/michael42",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael43": {
       "sFirstName": "michael",
@@ -1351,15 +1081,9 @@
       "iModifiedIncrement": 43,
       "sId": "michael43",
       "sUrl": "https://profiles.udacity.com/u/michael43",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael44": {
       "sFirstName": "michael",
@@ -1367,15 +1091,9 @@
       "iModifiedIncrement": 44,
       "sId": "michael44",
       "sUrl": "https://profiles.udacity.com/u/michael44",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael45": {
       "sFirstName": "michael",
@@ -1383,15 +1101,9 @@
       "iModifiedIncrement": 45,
       "sId": "michael45",
       "sUrl": "https://profiles.udacity.com/u/michael45",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael46": {
       "sFirstName": "michael",
@@ -1399,15 +1111,9 @@
       "iModifiedIncrement": 46,
       "sId": "michael46",
       "sUrl": "https://profiles.udacity.com/u/michael46",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael47": {
       "sFirstName": "michael",
@@ -1415,15 +1121,9 @@
       "iModifiedIncrement": 47,
       "sId": "michael47",
       "sUrl": "https://profiles.udacity.com/u/michael47",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael48": {
       "sFirstName": "michael",
@@ -1431,15 +1131,9 @@
       "iModifiedIncrement": 48,
       "sId": "michael48",
       "sUrl": "https://profiles.udacity.com/u/michael48",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael49": {
       "sFirstName": "michael",
@@ -1447,15 +1141,9 @@
       "iModifiedIncrement": 49,
       "sId": "michael49",
       "sUrl": "https://profiles.udacity.com/u/michael49",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael50": {
       "sFirstName": "michael",
@@ -1463,15 +1151,9 @@
       "iModifiedIncrement": 50,
       "sId": "michael50",
       "sUrl": "https://profiles.udacity.com/u/michael50",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael51": {
       "sFirstName": "michael",
@@ -1479,15 +1161,9 @@
       "iModifiedIncrement": 51,
       "sId": "michael51",
       "sUrl": "https://profiles.udacity.com/u/michael51",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael52": {
       "sFirstName": "michael",
@@ -1495,15 +1171,9 @@
       "iModifiedIncrement": 52,
       "sId": "michael52",
       "sUrl": "https://profiles.udacity.com/u/michael52",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael53": {
       "sFirstName": "michael",
@@ -1511,15 +1181,9 @@
       "iModifiedIncrement": 53,
       "sId": "michael53",
       "sUrl": "https://profiles.udacity.com/u/michael53",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael54": {
       "sFirstName": "michael",
@@ -1527,15 +1191,9 @@
       "iModifiedIncrement": 54,
       "sId": "michael54",
       "sUrl": "https://profiles.udacity.com/u/michael54",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "michael55": {
       "sFirstName": "michael",
@@ -1551,15 +1209,9 @@
       "iModifiedIncrement": 0,
       "sId": "robert",
       "sUrl": "https://profiles.udacity.com/u/robert",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert1": {
       "sFirstName": "robert",
@@ -1567,15 +1219,9 @@
       "iModifiedIncrement": 1,
       "sId": "robert1",
       "sUrl": "https://profiles.udacity.com/u/robert1",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert2": {
       "sFirstName": "robert",
@@ -1583,15 +1229,9 @@
       "iModifiedIncrement": 2,
       "sId": "robert2",
       "sUrl": "https://profiles.udacity.com/u/robert2",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert3": {
       "sFirstName": "robert",
@@ -1599,15 +1239,9 @@
       "iModifiedIncrement": 3,
       "sId": "robert3",
       "sUrl": "https://profiles.udacity.com/u/robert3",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert4": {
       "sFirstName": "robert",
@@ -1615,15 +1249,9 @@
       "iModifiedIncrement": 4,
       "sId": "robert4",
       "sUrl": "https://profiles.udacity.com/u/robert4",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert5": {
       "sFirstName": "robert",
@@ -1631,15 +1259,9 @@
       "iModifiedIncrement": 5,
       "sId": "robert5",
       "sUrl": "https://profiles.udacity.com/u/robert5",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert6": {
       "sFirstName": "robert",
@@ -1647,15 +1269,9 @@
       "iModifiedIncrement": 6,
       "sId": "robert6",
       "sUrl": "https://profiles.udacity.com/u/robert6",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert7": {
       "sFirstName": "robert",
@@ -1663,15 +1279,9 @@
       "iModifiedIncrement": 7,
       "sId": "robert7",
       "sUrl": "https://profiles.udacity.com/u/robert7",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert8": {
       "sFirstName": "robert",
@@ -1679,15 +1289,9 @@
       "iModifiedIncrement": 8,
       "sId": "robert8",
       "sUrl": "https://profiles.udacity.com/u/robert8",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert9": {
       "sFirstName": "robert",
@@ -1695,15 +1299,9 @@
       "iModifiedIncrement": 9,
       "sId": "robert9",
       "sUrl": "https://profiles.udacity.com/u/robert9",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert10": {
       "sFirstName": "robert",
@@ -1711,15 +1309,9 @@
       "iModifiedIncrement": 10,
       "sId": "robert10",
       "sUrl": "https://profiles.udacity.com/u/robert10",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert11": {
       "sFirstName": "robert",
@@ -1727,15 +1319,9 @@
       "iModifiedIncrement": 11,
       "sId": "robert11",
       "sUrl": "https://profiles.udacity.com/u/robert11",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert12": {
       "sFirstName": "robert",
@@ -1743,15 +1329,9 @@
       "iModifiedIncrement": 12,
       "sId": "robert12",
       "sUrl": "https://profiles.udacity.com/u/robert12",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert13": {
       "sFirstName": "robert",
@@ -1759,15 +1339,9 @@
       "iModifiedIncrement": 13,
       "sId": "robert13",
       "sUrl": "https://profiles.udacity.com/u/robert13",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert14": {
       "sFirstName": "robert",
@@ -1775,15 +1349,9 @@
       "iModifiedIncrement": 14,
       "sId": "robert14",
       "sUrl": "https://profiles.udacity.com/u/robert14",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert15": {
       "sFirstName": "robert",
@@ -1791,15 +1359,9 @@
       "iModifiedIncrement": 15,
       "sId": "robert15",
       "sUrl": "https://profiles.udacity.com/u/robert15",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert16": {
       "sFirstName": "robert",
@@ -1807,15 +1369,9 @@
       "iModifiedIncrement": 16,
       "sId": "robert16",
       "sUrl": "https://profiles.udacity.com/u/robert16",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert17": {
       "sFirstName": "robert",
@@ -1823,15 +1379,9 @@
       "iModifiedIncrement": 17,
       "sId": "robert17",
       "sUrl": "https://profiles.udacity.com/u/robert17",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert18": {
       "sFirstName": "robert",
@@ -1839,15 +1389,9 @@
       "iModifiedIncrement": 18,
       "sId": "robert18",
       "sUrl": "https://profiles.udacity.com/u/robert18",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert19": {
       "sFirstName": "robert",
@@ -1855,15 +1399,9 @@
       "iModifiedIncrement": 19,
       "sId": "robert19",
       "sUrl": "https://profiles.udacity.com/u/robert19",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "robert20": {
       "sFirstName": "robert",
@@ -1879,15 +1417,9 @@
       "iModifiedIncrement": 0,
       "sId": "james",
       "sUrl": "https://profiles.udacity.com/u/james",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james1": {
       "sFirstName": "james",
@@ -1895,15 +1427,9 @@
       "iModifiedIncrement": 1,
       "sId": "james1",
       "sUrl": "https://profiles.udacity.com/u/james1",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james2": {
       "sFirstName": "james",
@@ -1911,15 +1437,9 @@
       "iModifiedIncrement": 2,
       "sId": "james2",
       "sUrl": "https://profiles.udacity.com/u/james2",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james3": {
       "sFirstName": "james",
@@ -1927,15 +1447,9 @@
       "iModifiedIncrement": 3,
       "sId": "james3",
       "sUrl": "https://profiles.udacity.com/u/james3",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james4": {
       "sFirstName": "james",
@@ -1943,15 +1457,9 @@
       "iModifiedIncrement": 4,
       "sId": "james4",
       "sUrl": "https://profiles.udacity.com/u/james4",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james5": {
       "sFirstName": "james",
@@ -1959,15 +1467,9 @@
       "iModifiedIncrement": 5,
       "sId": "james5",
       "sUrl": "https://profiles.udacity.com/u/james5",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james6": {
       "sFirstName": "james",
@@ -1975,15 +1477,9 @@
       "iModifiedIncrement": 6,
       "sId": "james6",
       "sUrl": "https://profiles.udacity.com/u/james6",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james7": {
       "sFirstName": "james",
@@ -1991,15 +1487,9 @@
       "iModifiedIncrement": 7,
       "sId": "james7",
       "sUrl": "https://profiles.udacity.com/u/james7",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james8": {
       "sFirstName": "james",
@@ -2007,15 +1497,9 @@
       "iModifiedIncrement": 8,
       "sId": "james8",
       "sUrl": "https://profiles.udacity.com/u/james8",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james9": {
       "sFirstName": "james",
@@ -2023,15 +1507,9 @@
       "iModifiedIncrement": 9,
       "sId": "james9",
       "sUrl": "https://profiles.udacity.com/u/james9",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james10": {
       "sFirstName": "james",
@@ -2039,15 +1517,9 @@
       "iModifiedIncrement": 10,
       "sId": "james10",
       "sUrl": "https://profiles.udacity.com/u/james10",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james11": {
       "sFirstName": "james",
@@ -2055,15 +1527,9 @@
       "iModifiedIncrement": 11,
       "sId": "james11",
       "sUrl": "https://profiles.udacity.com/u/james11",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james12": {
       "sFirstName": "james",
@@ -2071,15 +1537,9 @@
       "iModifiedIncrement": 12,
       "sId": "james12",
       "sUrl": "https://profiles.udacity.com/u/james12",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james13": {
       "sFirstName": "james",
@@ -2087,15 +1547,9 @@
       "iModifiedIncrement": 13,
       "sId": "james13",
       "sUrl": "https://profiles.udacity.com/u/james13",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james14": {
       "sFirstName": "james",
@@ -2103,15 +1557,9 @@
       "iModifiedIncrement": 14,
       "sId": "james14",
       "sUrl": "https://profiles.udacity.com/u/james14",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james15": {
       "sFirstName": "james",
@@ -2119,15 +1567,9 @@
       "iModifiedIncrement": 15,
       "sId": "james15",
       "sUrl": "https://profiles.udacity.com/u/james15",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james16": {
       "sFirstName": "james",
@@ -2135,15 +1577,9 @@
       "iModifiedIncrement": 16,
       "sId": "james16",
       "sUrl": "https://profiles.udacity.com/u/james16",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james17": {
       "sFirstName": "james",
@@ -2151,15 +1587,9 @@
       "iModifiedIncrement": 17,
       "sId": "james17",
       "sUrl": "https://profiles.udacity.com/u/james17",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james18": {
       "sFirstName": "james",
@@ -2167,15 +1597,9 @@
       "iModifiedIncrement": 18,
       "sId": "james18",
       "sUrl": "https://profiles.udacity.com/u/james18",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james19": {
       "sFirstName": "james",
@@ -2183,15 +1607,9 @@
       "iModifiedIncrement": 19,
       "sId": "james19",
       "sUrl": "https://profiles.udacity.com/u/james19",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james20": {
       "sFirstName": "james",
@@ -2199,15 +1617,9 @@
       "iModifiedIncrement": 20,
       "sId": "james20",
       "sUrl": "https://profiles.udacity.com/u/james20",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james21": {
       "sFirstName": "james",
@@ -2215,15 +1627,9 @@
       "iModifiedIncrement": 21,
       "sId": "james21",
       "sUrl": "https://profiles.udacity.com/u/james21",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james22": {
       "sFirstName": "james",
@@ -2231,15 +1637,9 @@
       "iModifiedIncrement": 22,
       "sId": "james22",
       "sUrl": "https://profiles.udacity.com/u/james22",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james23": {
       "sFirstName": "james",
@@ -2247,15 +1647,9 @@
       "iModifiedIncrement": 23,
       "sId": "james23",
       "sUrl": "https://profiles.udacity.com/u/james23",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james24": {
       "sFirstName": "james",
@@ -2263,15 +1657,9 @@
       "iModifiedIncrement": 24,
       "sId": "james24",
       "sUrl": "https://profiles.udacity.com/u/james24",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james25": {
       "sFirstName": "james",
@@ -2279,15 +1667,9 @@
       "iModifiedIncrement": 25,
       "sId": "james25",
       "sUrl": "https://profiles.udacity.com/u/james25",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james26": {
       "sFirstName": "james",
@@ -2295,15 +1677,9 @@
       "iModifiedIncrement": 26,
       "sId": "james26",
       "sUrl": "https://profiles.udacity.com/u/james26",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james27": {
       "sFirstName": "james",
@@ -2311,15 +1687,9 @@
       "iModifiedIncrement": 27,
       "sId": "james27",
       "sUrl": "https://profiles.udacity.com/u/james27",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james28": {
       "sFirstName": "james",
@@ -2327,15 +1697,9 @@
       "iModifiedIncrement": 28,
       "sId": "james28",
       "sUrl": "https://profiles.udacity.com/u/james28",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james29": {
       "sFirstName": "james",
@@ -2343,15 +1707,9 @@
       "iModifiedIncrement": 29,
       "sId": "james29",
       "sUrl": "https://profiles.udacity.com/u/james29",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james30": {
       "sFirstName": "james",
@@ -2359,15 +1717,9 @@
       "iModifiedIncrement": 30,
       "sId": "james30",
       "sUrl": "https://profiles.udacity.com/u/james30",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james31": {
       "sFirstName": "james",
@@ -2375,15 +1727,9 @@
       "iModifiedIncrement": 31,
       "sId": "james31",
       "sUrl": "https://profiles.udacity.com/u/james31",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james32": {
       "sFirstName": "james",
@@ -2391,15 +1737,9 @@
       "iModifiedIncrement": 32,
       "sId": "james32",
       "sUrl": "https://profiles.udacity.com/u/james32",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james33": {
       "sFirstName": "james",
@@ -2407,15 +1747,9 @@
       "iModifiedIncrement": 33,
       "sId": "james33",
       "sUrl": "https://profiles.udacity.com/u/james33",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james34": {
       "sFirstName": "james",
@@ -2423,15 +1757,9 @@
       "iModifiedIncrement": 34,
       "sId": "james34",
       "sUrl": "https://profiles.udacity.com/u/james34",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james35": {
       "sFirstName": "james",
@@ -2439,15 +1767,9 @@
       "iModifiedIncrement": 35,
       "sId": "james35",
       "sUrl": "https://profiles.udacity.com/u/james35",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james36": {
       "sFirstName": "james",
@@ -2455,15 +1777,9 @@
       "iModifiedIncrement": 36,
       "sId": "james36",
       "sUrl": "https://profiles.udacity.com/u/james36",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james37": {
       "sFirstName": "james",
@@ -2471,15 +1787,9 @@
       "iModifiedIncrement": 37,
       "sId": "james37",
       "sUrl": "https://profiles.udacity.com/u/james37",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james38": {
       "sFirstName": "james",
@@ -2487,15 +1797,9 @@
       "iModifiedIncrement": 38,
       "sId": "james38",
       "sUrl": "https://profiles.udacity.com/u/james38",
-      "sEmail": "",
-      "sUserName": "",
-      "iEducationCount": 0,
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true,
-      "bOtherError": false,
-      "bPresentlyEmployed": false,
-      "iTriesRemaining": ""
+      "bTooManyRequestsError": true
     },
     "james39": {
       "sFirstName": "james",
