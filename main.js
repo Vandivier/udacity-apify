@@ -42,6 +42,7 @@ const oTitleLine = {
 };
 
 const arrTableColumnKeys = Object.keys(oTitleLine);
+const sCacheUrl = 'https://raw.githubusercontent.com/Vandivier/udacity-apify/master/kv-store-dev/CACHE';
 const sRootUrl = 'https://profiles.udacity.com/u/';
 
 let oCache;
@@ -57,12 +58,15 @@ Apify.main(async () => {
 });
 
 async function main() {
-    let oInput = await Apify.getValue('INPUT');
-    let arrsFirstNames = oInput.firstNames;
-    oCache = await Apify.getValue('CACHE');
+    let arrsFirstNames;
 
-    console.log('first names', arrsFirstNames);
     browser = await Apify.launchPuppeteer(); // ref: https://www.apify.com/docs/sdk/apify-runtime-js/latest
+
+    await fpGetCache();
+
+    oCache = await Apify.getValue('CACHE');
+    arrsFirstNames = oCache.firstNames;
+    console.log('first names', arrsFirstNames);
 
     // array pattern, doesn't work for streams
     await utils.forEachReverseAsyncPhased(arrsFirstNames, async function(_sInputRecord, i) {
@@ -76,6 +80,21 @@ async function main() {
     });
 
     return fpEndProgram();
+}
+
+async function fpGetCache() {
+    const _page = await browser.newPage();
+    await _page.goto(sCacheUrl, {
+        'timeout': 0
+    });
+
+    await _page.content();
+    oCache = await _page.evaluate(() => {
+        return JSON.parse(document.querySelector("body").innerText); 
+    });
+    await _page.close();
+
+    return Promise.resolve();
 }
 
 // to limit reference errors, only these things should ever be passed in through oMinimalRecord:
@@ -142,7 +161,7 @@ async function fpScrapeInputRecord(oRecord) {
             'timeout': 0
         });
 
-        await _page.content()
+        await _page.content();
         _page.on('console', _fCleanLog); // ref: https://stackoverflow.com/a/47460782/3931488
 
         oScrapeResult = await _page.evaluate(async function (_iCurrentInputRecord) {
