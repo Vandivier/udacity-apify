@@ -14,13 +14,11 @@
   "devDependencies": {
     "async": "^2.3.0",
     "chrome-remote-interface": "^0.24.5",
-    "cross-env": "^5.1.3",
     "csv": "^1.1.1",
     "lien": "^1.0.1",
     "tester": "^1.3.2"
   },
   "scripts": {
-    "test-cross-env": "cross-env APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/ node main.js",
     "test-local": "export APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/|| set APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/&& node main.js"
   }
 }
