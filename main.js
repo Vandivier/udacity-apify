@@ -63,8 +63,6 @@ async function main() {
     browser = await Apify.launchPuppeteer(); // ref: https://www.apify.com/docs/sdk/apify-runtime-js/latest
 
     await fpGetCache();
-
-    oCache = await Apify.getValue('CACHE');
     arrsFirstNames = oCache.firstNames;
     console.log('first names', arrsFirstNames);
 
@@ -135,7 +133,7 @@ function fsRecordToCsvLine(oRecord) {
 
 async function fpEndProgram() {
     await browser.close();
-    await Apify.setValue('CACHE', oCache);
+    await Apify.setValue('OUTPUT', oCache);
     return Promise.resolve();
 }
 
