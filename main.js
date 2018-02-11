@@ -42,7 +42,7 @@ const oTitleLine = {
 };
 
 const arrTableColumnKeys = Object.keys(oTitleLine);
-const sCacheUrl = 'https://raw.githubusercontent.com/Vandivier/udacity-apify/master/kv-store-dev/CACHE';
+const sCacheUrl = 'https://raw.githubusercontent.com/Vandivier/udacity-apify/master/kv-store-dev/OUTPUT';
 const sRootUrl = 'https://profiles.udacity.com/u/';
 
 let oCache;
