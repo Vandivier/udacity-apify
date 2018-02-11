@@ -19,11 +19,7 @@ const Apify = require('apify');
 const beautify = require('js-beautify').js_beautify;
 const EOL = require('os').EOL;
 const fs = require('fs');
-//const genderize = require('genderize'); // todo: use genderize
 const reorder = require('csv-reorder');
-//const request = require('request-promise');
-//const split = require('split');
-//const proxyFromCache = require('./proxyFromCache.js')
 const puppeteer = require('puppeteer');
 const util = require('util');
 const utils = require('ella-utils');
@@ -49,25 +45,7 @@ const oTitleLine = {
 const arrTableColumnKeys = Object.keys(oTitleLine);
 const sRootUrl = 'https://profiles.udacity.com/u/';
 
-// TODO: conventionalize var name to column title line value
-// proposed rule: encounter each capital letter; splice before first letter and insert spaces in other cases
-// fDehungarianize(sVariableName) => Variable Name
-//const sResultDir = __dirname + '/results';
-
-const sCacheFilePath = './cache.json';
-const sOrderedOutputFilePath = './ordered-output.csv';
-const sInputFilePath = __dirname + '/subsample-test.csv'; // TODO: use rsReadStream
-const sOutputFilePath = __dirname + '/output.csv';
-
-const fpReadFile = util.promisify(fs.readFile);
-const fpWriteFile = util.promisify(fs.writeFile);
-
-//let oCache = JSON.parse(fs.readFileSync(sCacheFilePath, 'utf8'));
 let oCache;
-
-//const rsReadStream = fs.createReadStream('./EarhartMergedNoBoxNoLines.txt');
-const wsWriteStream = fs.createWriteStream(sOutputFilePath);
-
 let browser;
 let iCurrentInputRecord = 0;
 let iTotalInputRecords = 0;
@@ -84,34 +62,11 @@ async function main() {
     let arrsFirstNames = oInput.firstNames;
     oCache = await Apify.getValue('CACHE');
 
-    console.log('first names', arrsFirstNames)
-    /*
-    let sInputCsv;
-    let arrsInputRows;
-
-    //fsRecordToCsvLine(oTitleLine);
-    //await utils.fpWait(5000); // only needed to give debugger time to attach
-    sInputCsv = await fpReadFile(sInputFilePath, 'utf8');
-    arrsInputRows = sInputCsv.split(EOL).filter(sLine => sLine); // drop title line and empty trailing lines
-
-    //arrsInputRows = arrsInputRows.slice(0, 5);
-    arrsInputRows.shift();
-    iTotalInputRecords = arrsInputRows.length;
-
-    if (typeof oCache !== 'object'
-        || !iTotalInputRecords)
-    { // don't waste time or requests if there's a problem
-        console.log('error obtaining oFirstNameCache');
-        fpEndProgram();
-    }
-
-    console.log('early count, iTotalInputRecords = ' + iTotalInputRecords);
-    */
+    console.log('first names', arrsFirstNames);
     browser = await Apify.launchPuppeteer(); // ref: https://www.apify.com/docs/sdk/apify-runtime-js/latest
 
     // array pattern, doesn't work for streams
     await utils.forEachReverseAsyncPhased(arrsFirstNames, async function(_sInputRecord, i) {
-        //const arrsCells = _sInputRecord.split(',');
         const oRecordFromSource = { // oRecords can be from source or generated; these are all from source
             sFirstName: _sInputRecord,
             sLastName: 'smith', // todo: change
@@ -162,33 +117,7 @@ function fsRecordToCsvLine(oRecord) {
 
 async function fpEndProgram() {
     await browser.close();
-
     await Apify.setValue('CACHE', oCache);
-    //await Apify.setValue('OUTPUT', output);
-
-    //await fpWriteCache(); // TODO: uncomment and fix
-    return Promise.resolve();
-    //process.exit();
-}
-
-async function fpWriteCache() {
-    let sBeautifiedData = JSON.stringify(oCache);
-    sBeautifiedData = beautify(sBeautifiedData, { indent_size: 4 });
-
-    await fpWriteFile(sCacheFilePath, sBeautifiedData, 'utf8', err => {
-        reorder({
-            input: sOutputFilePath, // too bad input can't be sBeautifiedData
-            output: sOrderedOutputFilePath,
-            sort: 'Entry ID'
-        })
-        .then(metadata => {
-            console.log('Program completed.');
-        })
-        .catch(error => {
-            console.log('Program completed with error.', error);
-        });
-    });
-
     return Promise.resolve();
 }
 
@@ -289,7 +218,6 @@ async function fpScrapeInputRecord(oRecord) {
 
     oMergedRecord = Object.assign(oRecord, oScrapeResult);
     oCache.people[oRecord.sId] = JSON.parse(JSON.stringify(oMergedRecord));
-    //fsRecordToCsvLine(oMergedRecord);
     return Promise.resolve(JSON.parse(JSON.stringify(oRecord))); // return prior to merging to minimize invalid data passed on
 
     function _fCleanLog(ConsoleMessage) {
