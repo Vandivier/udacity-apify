@@ -19,6 +19,7 @@
     "tester": "^1.3.2"
   },
   "scripts": {
-    "test-local": "export APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/|| set APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/&& node main.js"
+    "test-local": "export APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/|| set APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/&& node main.js",
+    "debug": "export APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/|| set APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/&& node --inspect main.js"
   }
 }

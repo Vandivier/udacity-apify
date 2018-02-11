@@ -60,10 +60,12 @@ Apify.main(async () => {
 async function main() {
     let arrsFirstNames;
 
+    //await utils.fpWait(5000); // for debugging
     browser = await Apify.launchPuppeteer(); // ref: https://www.apify.com/docs/sdk/apify-runtime-js/latest
 
     await fpGetCache();
     arrsFirstNames = oCache.firstNames;
+    //debugger // for debugging
     console.log('first names', arrsFirstNames);
 
     // array pattern, doesn't work for streams
