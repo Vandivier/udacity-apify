@@ -26,7 +26,6 @@ const utils = require('ella-utils');
 
 const oTitleLine = {
     'sId': 'Entry ID',
-    'sName': 'Name',
     'sEmail': 'Email Address',
     'sUserName': 'Username',
     'iEducationCount': 'Count of Education Entries',
@@ -38,7 +37,6 @@ const oTitleLine = {
     'bOtherError': 'Other Error',
     'bPresentlyEmployed': 'Presently Employed',
     'sProfileLastUpdate': 'Profile Last Updated Date',
-    'iTriesRemaining': 'Tries Remaining',
     'sUrl': 'Url Source'
 };
 
@@ -169,16 +167,14 @@ async function fpScrapeInputRecord(oRecord) {
             {
                 await _fpWait(3000);
 
-                _oResult.sName = $('h1[class*="user--name"]').html();
+                _oResult.sUserName = $('h1[class*="user--name"]').html();
                 _oResult.sEmail = $('.emaillabel').parent().find('td span').text();
-                _oResult.sUserName = '';
                 _oResult.iEducationCount = $('div[class*="educations--section"] div[class*="_education--education"]').length;
                 _oResult.sLinkedInUrl = $('a[title="LINKEDIN"]').attr('href');
                 _oResult.sResumeUrl = $('a[title="Resume"]').attr('href');
                 _oResult.bOtherError = false;
                 _oResult.bPresentlyEmployed = $('div[class*="works--section"] div[class*="_work--work"] span[class*="_work--present"]').length > 0;
                 _oResult.sProfileLastUpdate = $('div[class*="profile--updated"]').text().split(': ')[1];
-                _oResult.iTriesRemaining = ''; // TODO: remove
 
                 arr$Affiliations && arr$Affiliations.each(function (arr, el) {
                     let sTrimmed = _fsSafeTrim(el.innerText.replace(/\s/g, ' '));
