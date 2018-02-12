@@ -20,7 +20,7 @@
     "tester": "^1.3.2"
   },
   "scripts": {
-    "sloth-bihourly": "sloth 30 \"npm run test-local\" true true",
+    "sloth": "sloth 30 \"npm run local\" true true",
     "local": "export APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/|| set APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/&& node main.js",
     "debug": "export APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/|| set APIFY_DEV_KEY_VALUE_STORE_DIR=./kv-store-dev/&& node --inspect main.js"
   }
