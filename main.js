@@ -47,7 +47,8 @@ const sRootUrl = 'https://profiles.udacity.com/u/';
 
 let oCache;
 let browser;
-let bShortRun = true; // if false, find all valid bUserExists even though we can't scrape. If true, just end the run when we can't scrape.
+let bShortRun = true;   // if false, find all valid bUserExists even though we can't scrape. If true, just end the run when we can't scrape.
+                        // save time and computing power with true; you don't always want to do this, so configure bShortRun per run
 let bTooManyRequestsDuringThisRun = false;
 let iCurrentInputRecord = 0;
 let iTotalInputRecords = 0;
@@ -158,9 +159,11 @@ async function fpScrapeInputRecord(oRecord) {
         && oCachedResult.bUserExists !== undefined)
     {
         oScrapeResult = JSON.parse(JSON.stringify(oCachedResult));
-    } else if (oRecord.bUserExists !== false) { // yes, an exact check is needed.
-        if (bTooManyRequestsDuringThisRun && bShortRun) break; // save time and computing power; you don't always want to do this, so configure bShortRun per run
-
+    } else if (oRecord.bUserExists !== false // yes, an exact check is needed.
+               && !(bTooManyRequestsDuringThisRun
+                   && bShortRun)
+              )
+    {
         _page = await browser.newPage();
         await _page.goto(oRecord.sUrl, {
             'timeout': 0
