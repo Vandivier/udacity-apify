@@ -471,8 +471,8 @@
       "sId": "michael29",
       "sUrl": "https://profiles.udacity.com/u/michael29",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael30": {
       "sFirstName": "michael",
@@ -481,8 +481,8 @@
       "sId": "michael30",
       "sUrl": "https://profiles.udacity.com/u/michael30",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael31": {
       "sFirstName": "michael",
@@ -491,8 +491,8 @@
       "sId": "michael31",
       "sUrl": "https://profiles.udacity.com/u/michael31",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael32": {
       "sFirstName": "michael",
@@ -502,7 +502,14 @@
       "sUrl": "https://profiles.udacity.com/u/michael32",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "Michael",
+      "sLocation": "Boston, MA",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": "Profile last updated 7 months ago"
     },
     "michael33": {
       "sFirstName": "michael",
@@ -511,8 +518,8 @@
       "sId": "michael33",
       "sUrl": "https://profiles.udacity.com/u/michael33",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael34": {
       "sFirstName": "michael",
