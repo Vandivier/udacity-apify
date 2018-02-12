@@ -706,7 +706,10 @@
       "sLastName": "smith",
       "iModifiedIncrement": 0,
       "sId": "robert",
-      "sUrl": "https://profiles.udacity.com/u/robert"
+      "sUrl": "https://profiles.udacity.com/u/robert",
+      "bUserExists": true,
+      "bProfileIsPrivate": false,
+      "bTooManyRequestsError": true
     },
     "robert1": {
       "sFirstName": "robert",
@@ -911,7 +914,10 @@
       "sLastName": "smith",
       "iModifiedIncrement": 0,
       "sId": "john",
-      "sUrl": "https://profiles.udacity.com/u/john"
+      "sUrl": "https://profiles.udacity.com/u/john",
+      "bUserExists": true,
+      "bProfileIsPrivate": false,
+      "bTooManyRequestsError": true
     },
     "john1": {
       "sFirstName": "john",
@@ -1206,7 +1212,10 @@
       "sLastName": "smith",
       "iModifiedIncrement": 0,
       "sId": "james",
-      "sUrl": "https://profiles.udacity.com/u/james"
+      "sUrl": "https://profiles.udacity.com/u/james",
+      "bUserExists": true,
+      "bProfileIsPrivate": false,
+      "bTooManyRequestsError": true
     },
     "james1": {
       "sFirstName": "james",

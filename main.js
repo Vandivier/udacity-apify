@@ -115,8 +115,12 @@ async function fpHandleData(oMinimalRecord) {
         + oRecord.sId;
 
     _oScrapeResult = await fpScrapeInputRecord(oRecord);
-    if (_oScrapeResult.bUserExists) { // deceptively simple, dangerously recursive
-        await fpHandleData({
+    if (_oScrapeResult.bUserExists
+        && !(bTooManyRequestsDuringThisRun
+             && bShortRun)
+       )
+    {
+        await fpHandleData({ // deceptively simple, dangerously recursive
             sFirstName: _oScrapeResult.sFirstName,
             sLastName: _oScrapeResult.sLastName,
             iModifiedIncrement: (_oScrapeResult.iModifiedIncrement + 1)
@@ -159,11 +163,7 @@ async function fpScrapeInputRecord(oRecord) {
         && oCachedResult.bUserExists !== undefined)
     {
         oScrapeResult = JSON.parse(JSON.stringify(oCachedResult));
-    } else if (oRecord.bUserExists !== false // yes, an exact check is needed.
-               && !(bTooManyRequestsDuringThisRun
-                   && bShortRun)
-              )
-    {
+    } else if (oRecord.bUserExists !== false) { // yes, an exact check is needed.
         _page = await browser.newPage();
         await _page.goto(oRecord.sUrl, {
             'timeout': 0
