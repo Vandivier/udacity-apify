@@ -47,6 +47,8 @@ const sRootUrl = 'https://profiles.udacity.com/u/';
 
 let oCache;
 let browser;
+let bShortRun = true; // if false, find all valid bUserExists even though we can't scrape. If true, just end the run when we can't scrape.
+let bTooManyRequestsDuringThisRun = false;
 let iCurrentInputRecord = 0;
 let iTotalInputRecords = 0;
 let sResultToWrite;
@@ -144,8 +146,8 @@ async function fpEndProgram() {
 // not generalizable or temporally reliable in case of a site refactor
 async function fpScrapeInputRecord(oRecord) {
     let oCachedResult = oCache.people[oRecord.sId];
-    let oMergedRecord;
-    let oScrapeResult;
+    let oMergedRecord = {};
+    let oScrapeResult = {};
     let _page;
 
     //debugger
@@ -157,6 +159,8 @@ async function fpScrapeInputRecord(oRecord) {
     {
         oScrapeResult = JSON.parse(JSON.stringify(oCachedResult));
     } else if (oRecord.bUserExists !== false) { // yes, an exact check is needed.
+        if (bTooManyRequestsDuringThisRun && bShortRun) break; // save time and computing power; you don't always want to do this, so configure bShortRun per run
+
         _page = await browser.newPage();
         await _page.goto(oRecord.sUrl, {
             'timeout': 0
@@ -235,6 +239,7 @@ async function fpScrapeInputRecord(oRecord) {
         });
 
         await _page.close();
+        if (oScrapeResult.bTooManyRequestsError) bTooManyRequestsDuringThisRun = true;
     }
 
     oMergedRecord = Object.assign(oRecord, oScrapeResult);
