@@ -375,7 +375,14 @@
       "sUrl": "https://profiles.udacity.com/u/michael20",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "Michael A Donatelli",
+      "sLocation": "Secaucus, NJ",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": "Profile last updated 7 months ago"
     },
     "michael21": {
       "sFirstName": "michael",
@@ -384,8 +391,8 @@
       "sId": "michael21",
       "sUrl": "https://profiles.udacity.com/u/michael21",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael22": {
       "sFirstName": "michael",
@@ -394,8 +401,8 @@
       "sId": "michael22",
       "sUrl": "https://profiles.udacity.com/u/michael22",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael23": {
       "sFirstName": "michael",
@@ -404,8 +411,8 @@
       "sId": "michael23",
       "sUrl": "https://profiles.udacity.com/u/michael23",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael24": {
       "sFirstName": "michael",
@@ -414,8 +421,8 @@
       "sId": "michael24",
       "sUrl": "https://profiles.udacity.com/u/michael24",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael25": {
       "sFirstName": "michael",
