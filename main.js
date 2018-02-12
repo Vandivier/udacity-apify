@@ -143,10 +143,10 @@ async function fpEndProgram() {
 
 // not generalizable or temporally reliable in case of a site refactor
 async function fpScrapeInputRecord(oRecord) {
-    const _page = await browser.newPage();
     let oCachedResult = oCache.people[oRecord.sId];
     let oMergedRecord;
     let oScrapeResult;
+    let _page;
 
     //debugger
 
@@ -157,6 +157,7 @@ async function fpScrapeInputRecord(oRecord) {
     {
         oScrapeResult = JSON.parse(JSON.stringify(oCachedResult));
     } else if (oRecord.bUserExists !== false) { // yes, an exact check is needed.
+        _page = await browser.newPage();
         await _page.goto(oRecord.sUrl, {
             'timeout': 0
         });
@@ -232,9 +233,10 @@ async function fpScrapeInputRecord(oRecord) {
                 'bOtherError': true
             };
         });
+
+        await _page.close();
     }
 
-    await _page.close();
     oMergedRecord = Object.assign(oRecord, oScrapeResult);
     oCache.people[oRecord.sId] = JSON.parse(JSON.stringify(oMergedRecord));
     return Promise.resolve(JSON.parse(JSON.stringify(oRecord))); // return prior to merging to minimize invalid data passed on
