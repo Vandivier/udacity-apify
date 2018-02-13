@@ -651,8 +651,8 @@
       "sId": "michael43",
       "sUrl": "https://profiles.udacity.com/u/michael43",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael44": {
       "sFirstName": "michael",
@@ -661,8 +661,8 @@
       "sId": "michael44",
       "sUrl": "https://profiles.udacity.com/u/michael44",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael45": {
       "sFirstName": "michael",
@@ -671,8 +671,8 @@
       "sId": "michael45",
       "sUrl": "https://profiles.udacity.com/u/michael45",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael46": {
       "sFirstName": "michael",
@@ -681,8 +681,8 @@
       "sId": "michael46",
       "sUrl": "https://profiles.udacity.com/u/michael46",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael47": {
       "sFirstName": "michael",
