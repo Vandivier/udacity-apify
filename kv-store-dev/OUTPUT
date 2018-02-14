@@ -691,8 +691,8 @@
       "sId": "michael47",
       "sUrl": "https://profiles.udacity.com/u/michael47",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael48": {
       "sFirstName": "michael",
@@ -701,8 +701,8 @@
       "sId": "michael48",
       "sUrl": "https://profiles.udacity.com/u/michael48",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael49": {
       "sFirstName": "michael",
@@ -712,7 +712,14 @@
       "sUrl": "https://profiles.udacity.com/u/michael49",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "Michael",
+      "sLocation": "London, United Kingdom",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": true,
+      "sProfileLastUpdate": "Profile last updated 7 months ago"
     },
     "michael50": {
       "sFirstName": "michael",
@@ -721,8 +728,8 @@
       "sId": "michael50",
       "sUrl": "https://profiles.udacity.com/u/michael50",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael51": {
       "sFirstName": "michael",
@@ -732,7 +739,14 @@
       "sUrl": "https://profiles.udacity.com/u/michael51",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "Michael",
+      "sLocation": "Ann Arbor, MI",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": "Profile last updated 7 months ago"
     },
     "michael52": {
       "sFirstName": "michael",
@@ -741,8 +755,8 @@
       "sId": "michael52",
       "sUrl": "https://profiles.udacity.com/u/michael52",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael53": {
       "sFirstName": "michael",
