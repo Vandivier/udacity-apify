@@ -765,8 +765,8 @@
       "sId": "michael53",
       "sUrl": "https://profiles.udacity.com/u/michael53",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael54": {
       "sFirstName": "michael",
@@ -775,8 +775,8 @@
       "sId": "michael54",
       "sUrl": "https://profiles.udacity.com/u/michael54",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "michael55": {
       "sFirstName": "michael",
@@ -793,8 +793,8 @@
       "sId": "robert",
       "sUrl": "https://profiles.udacity.com/u/robert",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "robert1": {
       "sFirstName": "robert",
@@ -803,8 +803,8 @@
       "sId": "robert1",
       "sUrl": "https://profiles.udacity.com/u/robert1",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "robert2": {
       "sFirstName": "robert",
