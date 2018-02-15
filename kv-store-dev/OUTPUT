@@ -813,8 +813,8 @@
       "sId": "robert2",
       "sUrl": "https://profiles.udacity.com/u/robert2",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "robert3": {
       "sFirstName": "robert",
@@ -823,8 +823,8 @@
       "sId": "robert3",
       "sUrl": "https://profiles.udacity.com/u/robert3",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "robert4": {
       "sFirstName": "robert",
@@ -833,8 +833,8 @@
       "sId": "robert4",
       "sUrl": "https://profiles.udacity.com/u/robert4",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "robert5": {
       "sFirstName": "robert",
@@ -843,8 +843,8 @@
       "sId": "robert5",
       "sUrl": "https://profiles.udacity.com/u/robert5",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "robert6": {
       "sFirstName": "robert",
