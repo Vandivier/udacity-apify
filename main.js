@@ -43,6 +43,7 @@ const oTitleLine = {
 
 const arrTableColumnKeys = Object.keys(oTitleLine);
 const sCacheUrl = 'https://raw.githubusercontent.com/Vandivier/udacity-apify/master/kv-store-dev/OUTPUT';
+const sProxyPassword = process.env.APIFY_PROXY_PASSWORD;
 const sRootUrl = 'https://profiles.udacity.com/u/';
 
 let oCache;
@@ -64,7 +65,14 @@ async function main() {
     let arrsFirstNames;
 
     //await utils.fpWait(5000); // for debugging
-    browser = await Apify.launchPuppeteer(); // ref: https://www.apify.com/docs/sdk/apify-runtime-js/latest
+    if (sProxyPassword) {
+        console.log('using password: ' + sProxyPassword);
+        browser = await Apify.launchPuppeteer({
+            proxyUrl: `http://auto:${sProxyPassword}@proxy.apify.com:8000`
+        });
+    } else {
+        browser = await Apify.launchPuppeteer(); // ref: https://www.apify.com/docs/sdk/apify-runtime-js/latest
+    }
 
     await fpGetCache();
     arrsFirstNames = oCache.firstNames;
