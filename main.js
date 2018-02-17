@@ -43,8 +43,6 @@ const oTitleLine = {
 
 const arrTableColumnKeys = Object.keys(oTitleLine);
 const sCacheUrl = 'https://raw.githubusercontent.com/Vandivier/udacity-apify/master/kv-store-dev/OUTPUT';
-const sProxyPassword = process.env.APIFY_PROXY_PASSWORD;
-const sProxyUser = process.env.APIFY_PROXY_USER;
 const sRootUrl = 'https://profiles.udacity.com/u/';
 
 let oCache;
@@ -54,6 +52,8 @@ let bShortRun = true;   // if false, find all valid bUserExists even though we c
 let bTooManyRequestsDuringThisRun = false;
 let iCurrentInputRecord = 0;
 let iTotalInputRecords = 0;
+let sProxyPassword;
+let sProxyUser;
 let sResultToWrite;
 let wsGotSome;
 let wsErrorLog;
@@ -63,10 +63,17 @@ Apify.main(async () => {
 });
 
 async function main() {
+    const oInput = await Apify.getValue('INPUT');
     let arrsFirstNames;
 
+    sProxyPassword = process.env.APIFY_PROXY_PASSWORD || oInput.APIFY_PROXY_PASSWORD;
+    sProxyUser = process.env.APIFY_PROXY_USER || oInput.APIFY_PROXY_USER;
+
     //await utils.fpWait(5000); // for debugging
-    if (sProxyPassword) {
+
+    if (sProxyPassword
+        && sProxyUser)
+    {
         console.log('using password: ' + sProxyPassword);
         console.log('using user: ' + sProxyUser);
         browser = await Apify.launchPuppeteer({
