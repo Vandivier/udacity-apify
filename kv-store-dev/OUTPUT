@@ -2046,4 +2046,10 @@
   "lastNames": [
     "smith"
   ]
+  "nickNameGroups": [
+    {
+        "firstName": "james",
+        "nickNames": ["jamie", "jim", "jimmie", "jimmy"]
+    }
+  ]
 }
