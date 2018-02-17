@@ -1,6 +1,6 @@
 {
   "name": "udacity-scrape",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "dependencies": {
     "apify": "^0.4.32",
