@@ -944,8 +944,8 @@
       "sId": "robert13",
       "sUrl": "https://profiles.udacity.com/u/robert13",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "robert14": {
       "sFirstName": "robert",
@@ -955,7 +955,14 @@
       "sUrl": "https://profiles.udacity.com/u/robert14",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "Robert",
+      "sLocation": "Fullerton, CA",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": true,
+      "sProfileLastUpdate": "Profile last updated 8 months ago"
     },
     "robert15": {
       "sFirstName": "robert",
@@ -964,8 +971,8 @@
       "sId": "robert15",
       "sUrl": "https://profiles.udacity.com/u/robert15",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "robert16": {
       "sFirstName": "robert",
@@ -974,8 +981,8 @@
       "sId": "robert16",
       "sUrl": "https://profiles.udacity.com/u/robert16",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "robert17": {
       "sFirstName": "robert",
@@ -984,8 +991,8 @@
       "sId": "robert17",
       "sUrl": "https://profiles.udacity.com/u/robert17",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "robert18": {
       "sFirstName": "robert",
@@ -994,8 +1001,8 @@
       "sId": "robert18",
       "sUrl": "https://profiles.udacity.com/u/robert18",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "robert19": {
       "sFirstName": "robert",
@@ -2048,8 +2055,13 @@
   ],
   "nickNameGroups": [
     {
-        "firstName": "james",
-        "nickNames": ["jamie", "jim", "jimmie", "jimmy"]
+      "firstName": "james",
+      "nickNames": [
+        "jamie",
+        "jim",
+        "jimmie",
+        "jimmy"
+      ]
     }
   ]
 }
