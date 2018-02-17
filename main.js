@@ -66,8 +66,8 @@ async function main() {
     const oInput = await Apify.getValue('INPUT');
     let arrsFirstNames;
 
-    sProxyPassword = process.env.APIFY_PROXY_PASSWORD || oInput.APIFY_PROXY_PASSWORD;
-    sProxyUser = process.env.APIFY_PROXY_USER || oInput.APIFY_PROXY_USER;
+    sProxyPassword = oInput.APIFY_PROXY_PASSWORD || process.env.APIFY_PROXY_PASSWORD;
+    sProxyUser = oInput.APIFY_PROXY_USER || process.env.APIFY_PROXY_USER;
 
     //await utils.fpWait(5000); // for debugging
 
