@@ -1030,7 +1030,12 @@
       "sUrl": "https://profiles.udacity.com/u/john",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": ""
     },
     "john1": {
       "sFirstName": "john",
@@ -1328,7 +1333,12 @@
       "sUrl": "https://profiles.udacity.com/u/james",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": ""
     },
     "james1": {
       "sFirstName": "james",
