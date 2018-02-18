@@ -1111,7 +1111,12 @@
       "sUrl": "https://profiles.udacity.com/u/john5",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": ""
     },
     "john6": {
       "sFirstName": "john",
