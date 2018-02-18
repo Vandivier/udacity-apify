@@ -1126,7 +1126,12 @@
       "sUrl": "https://profiles.udacity.com/u/john6",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": ""
     },
     "john7": {
       "sFirstName": "john",
@@ -1136,7 +1141,12 @@
       "sUrl": "https://profiles.udacity.com/u/john7",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": ""
     },
     "john8": {
       "sFirstName": "john",
@@ -1145,8 +1155,8 @@
       "sId": "john8",
       "sUrl": "https://profiles.udacity.com/u/john8",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john9": {
       "sFirstName": "john",
@@ -1156,7 +1166,14 @@
       "sUrl": "https://profiles.udacity.com/u/john9",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "John",
+      "sLocation": "Westerville, OH",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": true,
+      "sProfileLastUpdate": "Profile last updated 8 months ago"
     },
     "john10": {
       "sFirstName": "john",
@@ -1166,7 +1183,14 @@
       "sUrl": "https://profiles.udacity.com/u/john10",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "John",
+      "sLocation": "Village of Pelham, NY",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": "Profile last updated 8 months ago"
     },
     "john11": {
       "sFirstName": "john",
@@ -1176,7 +1200,14 @@
       "sUrl": "https://profiles.udacity.com/u/john11",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "John",
+      "sLocation": "Saratoga Springs, NY",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": "Profile last updated 8 months ago"
     },
     "john12": {
       "sFirstName": "john",
