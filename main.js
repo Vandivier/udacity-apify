@@ -88,16 +88,20 @@ async function main() {
     //debugger // for debugging
     console.log('first names', arrsFirstNames);
 
-    // array pattern, doesn't work for streams
-    await utils.forEachReverseAsyncPhased(arrsFirstNames, async function(_sInputRecord, i) {
-        const oRecordFromSource = { // oRecords can be from source or generated; these are all from source
-            sFirstName: _sInputRecord,
-            sLastName: 'smith', // todo: change
-            iModifiedIncrement: 0
-        };
+    try {
+        // array pattern, doesn't work for streams
+        await utils.forEachReverseAsyncPhased(arrsFirstNames, async function(_sInputRecord, i) {
+            const oRecordFromSource = { // oRecords can be from source or generated; these are all from source
+                sFirstName: _sInputRecord,
+                sLastName: 'smith', // todo: change
+                iModifiedIncrement: 0
+            };
 
-        return fpHandleData(oRecordFromSource);
-    });
+            return fpHandleData(oRecordFromSource);
+        });
+    } catch (e) {
+        console.log('err during main().forEachReverseAsyncPhased(): ', e);
+    }
 
     return fpEndProgram();
 }
