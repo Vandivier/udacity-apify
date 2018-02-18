@@ -131,7 +131,12 @@ async function fpHandleData(oMinimalRecord) {
     oRecord.sUrl = sRootUrl
         + oRecord.sId;
 
-    _oScrapeResult = await fpScrapeInputRecord(oRecord);
+    if (!bTooManyRequestsDuringThisRun
+        && bShortRun)
+    {
+        _oScrapeResult = await fpScrapeInputRecord(oRecord);
+    }
+
     if (_oScrapeResult.bUserExists
         && !(bTooManyRequestsDuringThisRun
              && bShortRun)
