@@ -137,7 +137,8 @@ async function fpHandleData(oMinimalRecord) {
         _oScrapeResult = await fpScrapeInputRecord(oRecord);
     }
 
-    if (_oScrapeResult.bUserExists
+    if (_oScrapeResult
+        && _oScrapeResult.bUserExists
         && !(bTooManyRequestsDuringThisRun
              && bShortRun)
        )
