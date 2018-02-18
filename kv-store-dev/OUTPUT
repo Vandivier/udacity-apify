@@ -1012,7 +1012,14 @@
       "sUrl": "https://profiles.udacity.com/u/robert19",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "Robert C McKee",
+      "sLocation": "Austin, TX",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": true,
+      "sProfileLastUpdate": "Profile last updated 4 months ago"
     },
     "robert20": {
       "sFirstName": "robert",
@@ -1045,7 +1052,14 @@
       "sUrl": "https://profiles.udacity.com/u/john1",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "John McGuigan",
+      "sLocation": "State College, PA",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": true,
+      "sProfileLastUpdate": "Profile last updated 8 months ago"
     },
     "john2": {
       "sFirstName": "john",
@@ -1055,7 +1069,12 @@
       "sUrl": "https://profiles.udacity.com/u/john2",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": ""
     },
     "john3": {
       "sFirstName": "john",
@@ -1065,7 +1084,14 @@
       "sUrl": "https://profiles.udacity.com/u/john3",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "John Galeazzi",
+      "sLocation": "New York, NY",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": true,
+      "sProfileLastUpdate": "Profile last updated 8 months ago"
     },
     "john4": {
       "sFirstName": "john",
@@ -1074,8 +1100,8 @@
       "sId": "john4",
       "sUrl": "https://profiles.udacity.com/u/john4",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john5": {
       "sFirstName": "john",
