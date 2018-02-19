@@ -1236,8 +1236,8 @@
       "sId": "john14",
       "sUrl": "https://profiles.udacity.com/u/john14",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john15": {
       "sFirstName": "john",
