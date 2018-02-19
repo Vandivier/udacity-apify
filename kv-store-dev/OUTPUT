@@ -1246,8 +1246,8 @@
       "sId": "john15",
       "sUrl": "https://profiles.udacity.com/u/john15",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john16": {
       "sFirstName": "john",
@@ -1257,7 +1257,14 @@
       "sUrl": "https://profiles.udacity.com/u/john16",
       "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "John Waltrip",
+      "sLocation": "Pflugerville, TX",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": "Profile last updated 8 months ago"
     },
     "john17": {
       "sFirstName": "john",
@@ -1266,8 +1273,8 @@
       "sId": "john17",
       "sUrl": "https://profiles.udacity.com/u/john17",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john18": {
       "sFirstName": "john",
@@ -1276,8 +1283,8 @@
       "sId": "john18",
       "sUrl": "https://profiles.udacity.com/u/john18",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john19": {
       "sFirstName": "john",
@@ -1286,8 +1293,8 @@
       "sId": "john19",
       "sUrl": "https://profiles.udacity.com/u/john19",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john20": {
       "sFirstName": "john",
