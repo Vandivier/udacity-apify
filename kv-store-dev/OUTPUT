@@ -1303,8 +1303,8 @@
       "sId": "john20",
       "sUrl": "https://profiles.udacity.com/u/john20",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john21": {
       "sFirstName": "john",
@@ -1313,8 +1313,8 @@
       "sId": "john21",
       "sUrl": "https://profiles.udacity.com/u/john21",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john22": {
       "sFirstName": "john",
@@ -1323,8 +1323,8 @@
       "sId": "john22",
       "sUrl": "https://profiles.udacity.com/u/john22",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john23": {
       "sFirstName": "john",
