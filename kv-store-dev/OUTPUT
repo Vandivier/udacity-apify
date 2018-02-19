@@ -1,5 +1,72 @@
 {
-  "people": {},
+  "people": {
+    "linda": {
+      "sFirstName": "linda",
+      "sLastName": "smith",
+      "iModifiedIncrement": 0,
+      "sId": "linda",
+      "sUrl": "https://profiles.udacity.com/u/linda",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "linda1": {
+      "sFirstName": "linda",
+      "sLastName": "smith",
+      "iModifiedIncrement": 1,
+      "sId": "linda1",
+      "sUrl": "https://profiles.udacity.com/u/linda1",
+      "bUserExists": true,
+      "bProfileIsPrivate": false,
+      "bTooManyRequestsError": false,
+      "sUserName": "Linda Webster",
+      "sLocation": "Bellevue, WA",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "iExperienceCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": "Profile last updated 8 months ago"
+    },
+    "linda2": {
+      "sFirstName": "linda",
+      "sLastName": "smith",
+      "iModifiedIncrement": 2,
+      "sId": "linda2",
+      "sUrl": "https://profiles.udacity.com/u/linda2",
+      "bUserExists": false
+    },
+    "elizabeth": {
+      "sFirstName": "elizabeth",
+      "sLastName": "smith",
+      "iModifiedIncrement": 0,
+      "sId": "elizabeth",
+      "sUrl": "https://profiles.udacity.com/u/elizabeth",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "elizabeth1": {
+      "sFirstName": "elizabeth",
+      "sLastName": "smith",
+      "iModifiedIncrement": 1,
+      "sId": "elizabeth1",
+      "sUrl": "https://profiles.udacity.com/u/elizabeth1",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "elizabeth2": {
+      "sFirstName": "elizabeth",
+      "sLastName": "smith",
+      "iModifiedIncrement": 2,
+      "sId": "elizabeth2",
+      "sUrl": "https://profiles.udacity.com/u/elizabeth2",
+      "bUserExists": true,
+      "bProfileIsPrivate": false,
+      "bTooManyRequestsError": true
+    }
+  },
   "firstNames": [
     "james",
     "john",
