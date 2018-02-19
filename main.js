@@ -225,7 +225,8 @@ async function fpScrapeInputRecord(oRecord) {
                 _oResult.sUserName = $('h1[class*="user--name"]').html();
                 _oResult.sLocation = $('[alt="location marker"]').next().html();
                 _oResult.sEmail = $('.emaillabel').parent().find('td span').text();
-                _oResult.iEducationCount = $('div[class*="educations--section"] div[class*="_education--education"]').length;
+                _oResult.iEducationCount = $('div[class*="educations--section"] div[class*="index--education"]').length;
+                _oResult.iExperienceCount = $('div[class*="works--section"] div[class*="_work--work"]').length;
                 _oResult.sLinkedInUrl = $('a[title="LINKEDIN"]').attr('href');
                 _oResult.sResumeUrl = $('a[title="Resume"]').attr('href');
                 _oResult.bOtherError = false;
