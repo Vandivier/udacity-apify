@@ -1216,8 +1216,8 @@
       "sId": "john12",
       "sUrl": "https://profiles.udacity.com/u/john12",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john13": {
       "sFirstName": "john",
@@ -1226,8 +1226,8 @@
       "sId": "john13",
       "sUrl": "https://profiles.udacity.com/u/john13",
       "bUserExists": true,
-      "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     },
     "john14": {
       "sFirstName": "john",
