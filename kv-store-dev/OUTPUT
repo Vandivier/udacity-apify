@@ -62,6 +62,22 @@
       "iModifiedIncrement": 2,
       "sId": "elizabeth2",
       "sUrl": "https://profiles.udacity.com/u/elizabeth2",
+      "bUserExists": false,
+      "bProfileIsPrivate": false,
+      "bTooManyRequestsError": false,
+      "sEmail": "",
+      "iEducationCount": 0,
+      "iExperienceCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": ""
+    },
+    "jennifer": {
+      "sFirstName": "jennifer",
+      "sLastName": "smith",
+      "iModifiedIncrement": 0,
+      "sId": "jennifer",
+      "sUrl": "https://profiles.udacity.com/u/jennifer",
       "bUserExists": true,
       "bProfileIsPrivate": false,
       "bTooManyRequestsError": true
