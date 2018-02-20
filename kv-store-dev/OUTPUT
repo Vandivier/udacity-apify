@@ -80,6 +80,68 @@
       "sUrl": "https://profiles.udacity.com/u/jennifer",
       "bUserExists": true,
       "bProfileIsPrivate": false,
+      "bTooManyRequestsError": false,
+      "sEmail": "",
+      "iEducationCount": 0,
+      "iExperienceCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": ""
+    },
+    "jennifer1": {
+      "sFirstName": "jennifer",
+      "sLastName": "smith",
+      "iModifiedIncrement": 1,
+      "sId": "jennifer1",
+      "sUrl": "https://profiles.udacity.com/u/jennifer1",
+      "bUserExists": false
+    },
+    "patricia": {
+      "sFirstName": "patricia",
+      "sLastName": "smith",
+      "iModifiedIncrement": 0,
+      "sId": "patricia",
+      "sUrl": "https://profiles.udacity.com/u/patricia",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "patricia1": {
+      "sFirstName": "patricia",
+      "sLastName": "smith",
+      "iModifiedIncrement": 1,
+      "sId": "patricia1",
+      "sUrl": "https://profiles.udacity.com/u/patricia1",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "patricia2": {
+      "sFirstName": "patricia",
+      "sLastName": "smith",
+      "iModifiedIncrement": 2,
+      "sId": "patricia2",
+      "sUrl": "https://profiles.udacity.com/u/patricia2",
+      "bUserExists": false
+    },
+    "mary": {
+      "sFirstName": "mary",
+      "sLastName": "smith",
+      "iModifiedIncrement": 0,
+      "sId": "mary",
+      "sUrl": "https://profiles.udacity.com/u/mary",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "mary1": {
+      "sFirstName": "mary",
+      "sLastName": "smith",
+      "iModifiedIncrement": 1,
+      "sId": "mary1",
+      "sUrl": "https://profiles.udacity.com/u/mary1",
+      "bUserExists": true,
+      "bProfileIsPrivate": false,
       "bTooManyRequestsError": true
     }
   },
