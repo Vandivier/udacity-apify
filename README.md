@@ -47,7 +47,13 @@ Originally cloned from: https://github.com/apifytech/act-quick-start
   3. udemy "
   5. hubspot "
   6. datacamp "
-  4. coursera: unable to programmatically determine user profile page
+  4. coursera: unable to programmatically determine user profile page*
+  5. pretty much everything: new approach http://advangle.com/
+     1. pay for linda
+     2. pay for linkedIn
+     3. use my own linkedIn network (bias potential)
+     4. *use a search engine instead of my own scraper (advangle-inurl pattern, bing > google)
+     5. "second hand scrape" pattern to determine valid user profiles
 
 # Business Project Notes
 
