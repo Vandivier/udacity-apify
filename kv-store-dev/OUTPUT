@@ -182,6 +182,78 @@
       "sUrl": "https://profiles.udacity.com/u/mary5",
       "bUserExists": true,
       "bProfileIsPrivate": false,
+      "bTooManyRequestsError": false,
+      "sEmail": "",
+      "iEducationCount": 0,
+      "iExperienceCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": ""
+    },
+    "mary6": {
+      "sFirstName": "mary",
+      "sLastName": "smith",
+      "iModifiedIncrement": 6,
+      "sId": "mary6",
+      "sUrl": "https://profiles.udacity.com/u/mary6",
+      "bUserExists": true,
+      "bProfileIsPrivate": false,
+      "bTooManyRequestsError": false,
+      "sUserName": "Mary",
+      "sLocation": "Philadelphia, PA",
+      "sEmail": "",
+      "iEducationCount": 2,
+      "iExperienceCount": 2,
+      "bOtherError": false,
+      "bPresentlyEmployed": true,
+      "sProfileLastUpdate": "Profile last updated 7 months ago"
+    },
+    "mary7": {
+      "sFirstName": "mary",
+      "sLastName": "smith",
+      "iModifiedIncrement": 7,
+      "sId": "mary7",
+      "sUrl": "https://profiles.udacity.com/u/mary7",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "mary8": {
+      "sFirstName": "mary",
+      "sLastName": "smith",
+      "iModifiedIncrement": 8,
+      "sId": "mary8",
+      "sUrl": "https://profiles.udacity.com/u/mary8",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "mary9": {
+      "sFirstName": "mary",
+      "sLastName": "smith",
+      "iModifiedIncrement": 9,
+      "sId": "mary9",
+      "sUrl": "https://profiles.udacity.com/u/mary9",
+      "bUserExists": false
+    },
+    "william": {
+      "sFirstName": "william",
+      "sLastName": "smith",
+      "iModifiedIncrement": 0,
+      "sId": "william",
+      "sUrl": "https://profiles.udacity.com/u/william",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "william1": {
+      "sFirstName": "william",
+      "sLastName": "smith",
+      "iModifiedIncrement": 1,
+      "sId": "william1",
+      "sUrl": "https://profiles.udacity.com/u/william1",
+      "bUserExists": true,
+      "bProfileIsPrivate": false,
       "bTooManyRequestsError": true
     }
   },
