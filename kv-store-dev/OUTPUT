@@ -311,8 +311,56 @@
       "sId": "william6",
       "sUrl": "https://profiles.udacity.com/u/william6",
       "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "william7": {
+      "sFirstName": "william",
+      "sLastName": "smith",
+      "iModifiedIncrement": 7,
+      "sId": "william7",
+      "sUrl": "https://profiles.udacity.com/u/william7",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "william8": {
+      "sFirstName": "william",
+      "sLastName": "smith",
+      "iModifiedIncrement": 8,
+      "sId": "william8",
+      "sUrl": "https://profiles.udacity.com/u/william8",
+      "bUserExists": true,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sUserName": "William Warner Weidenborner",
+      "sLocation": "Prague, Czechia",
+      "sEmail": "",
+      "iEducationCount": 1,
+      "iExperienceCount": 2,
+      "bOtherError": false,
+      "bPresentlyEmployed": true,
+      "sProfileLastUpdate": "Profile last updated 8 months ago"
+    },
+    "william9": {
+      "sFirstName": "william",
+      "sLastName": "smith",
+      "iModifiedIncrement": 9,
+      "sId": "william9",
+      "sUrl": "https://profiles.udacity.com/u/william9",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "william10": {
+      "sFirstName": "william",
+      "sLastName": "smith",
+      "iModifiedIncrement": 10,
+      "sId": "william10",
+      "sUrl": "https://profiles.udacity.com/u/william10",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
     }
   },
   "firstNames": [
