@@ -284,6 +284,34 @@
       "sUrl": "https://profiles.udacity.com/u/william4",
       "bUserExists": true,
       "bProfileIsPrivate": false,
+      "bTooManyRequestsError": false,
+      "sUserName": "William",
+      "sLocation": "SF, CA",
+      "sEmail": "",
+      "iEducationCount": 1,
+      "iExperienceCount": 1,
+      "bOtherError": false,
+      "bPresentlyEmployed": true,
+      "sProfileLastUpdate": "Profile last updated 8 months ago"
+    },
+    "william5": {
+      "sFirstName": "william",
+      "sLastName": "smith",
+      "iModifiedIncrement": 5,
+      "sId": "william5",
+      "sUrl": "https://profiles.udacity.com/u/william5",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "william6": {
+      "sFirstName": "william",
+      "sLastName": "smith",
+      "iModifiedIncrement": 6,
+      "sId": "william6",
+      "sUrl": "https://profiles.udacity.com/u/william6",
+      "bUserExists": true,
+      "bProfileIsPrivate": false,
       "bTooManyRequestsError": true
     }
   },
