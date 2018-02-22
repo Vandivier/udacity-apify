@@ -253,6 +253,36 @@
       "sId": "william1",
       "sUrl": "https://profiles.udacity.com/u/william1",
       "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "william2": {
+      "sFirstName": "william",
+      "sLastName": "smith",
+      "iModifiedIncrement": 2,
+      "sId": "william2",
+      "sUrl": "https://profiles.udacity.com/u/william2",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "william3": {
+      "sFirstName": "william",
+      "sLastName": "smith",
+      "iModifiedIncrement": 3,
+      "sId": "william3",
+      "sUrl": "https://profiles.udacity.com/u/william3",
+      "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "william4": {
+      "sFirstName": "william",
+      "sLastName": "smith",
+      "iModifiedIncrement": 4,
+      "sId": "william4",
+      "sUrl": "https://profiles.udacity.com/u/william4",
+      "bUserExists": true,
       "bProfileIsPrivate": false,
       "bTooManyRequestsError": true
     }
