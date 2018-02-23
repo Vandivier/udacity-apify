@@ -6,6 +6,7 @@ Originally cloned from: https://github.com/apifytech/act-quick-start
 
 1. https://profiles.udacity.com/u/elizabeth6 says bUserExists = false, but we have name and location!
 2. https://profiles.udacity.com/u/john5 says "bProfileIsPrivate": false, but accessing now it says profile is private (time issue?)
+3. at one point michael5 said bProfilePrivate, but then it said bProfilePrivate=false and reported all falsy data; so no employed/0/0 may be an error artifact
 
 # Results WIP
 
