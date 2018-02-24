@@ -492,7 +492,9 @@
       "iModifiedIncrement": 10,
       "sId": "michael10",
       "sUrl": "https://profiles.udacity.com/u/michael10",
-      "bOtherError": true
+      "bUserExists": true,
+      "bProfileIsPrivate": false,
+      "bTooManyRequestsError": true
     },
     "robert": {
       "sFirstName": "robert",
