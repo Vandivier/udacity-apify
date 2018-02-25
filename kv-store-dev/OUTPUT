@@ -635,6 +635,34 @@
       "sId": "michael16",
       "sUrl": "https://profiles.udacity.com/u/michael16",
       "bUserExists": true,
+      "bProfileIsPrivate": true,
+      "bTooManyRequestsError": false
+    },
+    "michael17": {
+      "sFirstName": "michael",
+      "sLastName": "smith",
+      "iModifiedIncrement": 17,
+      "sId": "michael17",
+      "sUrl": "https://profiles.udacity.com/u/michael17",
+      "bUserExists": true,
+      "bProfileIsPrivate": false,
+      "bTooManyRequestsError": false,
+      "sUserName": "Michael Zimmer",
+      "sLocation": "Chicago, IL",
+      "sEmail": "",
+      "iEducationCount": 0,
+      "iExperienceCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": "Profile last updated 8 months ago"
+    },
+    "michael18": {
+      "sFirstName": "michael",
+      "sLastName": "smith",
+      "iModifiedIncrement": 18,
+      "sId": "michael18",
+      "sUrl": "https://profiles.udacity.com/u/michael18",
+      "bUserExists": true,
       "bProfileIsPrivate": false,
       "bTooManyRequestsError": true
     }
