@@ -772,9 +772,23 @@
       "iModifiedIncrement": 5,
       "sId": "john5",
       "sUrl": "https://profiles.udacity.com/u/john5",
-      "bUserExists": true,
+      "bOtherError": true
+    },
+    "james": {
+      "sFirstName": "james",
+      "sLastName": "smith",
+      "iModifiedIncrement": 0,
+      "sId": "james",
+      "sUrl": "https://profiles.udacity.com/u/james",
+      "bUserExists": false,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sEmail": "",
+      "iEducationCount": 0,
+      "iExperienceCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": ""
     }
   },
   "firstNames": [
