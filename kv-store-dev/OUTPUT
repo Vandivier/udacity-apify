@@ -772,9 +772,15 @@
       "iModifiedIncrement": 5,
       "sId": "john5",
       "sUrl": "https://profiles.udacity.com/u/john5",
-      "bUserExists": true,
+      "bUserExists": false,
       "bProfileIsPrivate": false,
-      "bTooManyRequestsError": true
+      "bTooManyRequestsError": false,
+      "sEmail": "",
+      "iEducationCount": 0,
+      "iExperienceCount": 0,
+      "bOtherError": false,
+      "bPresentlyEmployed": false,
+      "sProfileLastUpdate": ""
     },
     "james": {
       "sFirstName": "james",
