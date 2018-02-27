@@ -6,6 +6,7 @@ Related projects:
 2. https://github.com/Vandivier/data-science-practice/tree/master/python/udacity-python
 3. https://github.com/Vandivier/data-science-practice/tree/master/python/udacity-scrapy
 4. https://github.com/apifytech/act-quick-start
+5. data-science-practice / Udacity Exploratory Analysis
 
 # Known Issues
 
