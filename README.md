@@ -14,6 +14,7 @@ Related projects:
 2. https://profiles.udacity.com/u/john5 says "bProfileIsPrivate": false, but accessing now it says profile is private (time issue?)
 3. at one point michael5 said bProfilePrivate, but then it said bProfilePrivate=false and reported all falsy data; so no employed/0/0 may be an error artifact
 4. anti-issue, good thing: if logged in you can see more user data like email address. see: https://profiles.udacity.com/u/allanreyes
+5. median uni freshman age, USA: 23, should underestimate average. source: https://nces.ed.gov/programs/digest/d16/tables/dt16_303.40.asp?current=yes
 
 # Results WIP
 
