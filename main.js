@@ -24,6 +24,11 @@ const puppeteer = require('puppeteer');
 const util = require('util');
 const utils = require('ella-utils');
 
+// TODO: day collected
+// FB, Github, LinkedIn, Twitter
+// Note: /eric !== /eric1
+// TODO: last name (Smith 'em)
+// TODO: defensible (strategically collected names) vs large-n (random names)
 const oTitleLine = {
     'sId': 'Entry ID',
     'sEmail': 'Email Address',

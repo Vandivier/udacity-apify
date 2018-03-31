@@ -13,6 +13,7 @@ Related projects:
 1. https://profiles.udacity.com/u/elizabeth6 says bUserExists = false, but we have name and location!
 2. https://profiles.udacity.com/u/john5 says "bProfileIsPrivate": false, but accessing now it says profile is private (time issue?)
 3. at one point michael5 said bProfilePrivate, but then it said bProfilePrivate=false and reported all falsy data; so no employed/0/0 may be an error artifact
+4. anti-issue, good thing: if logged in you can see more user data like email address. see: https://profiles.udacity.com/u/allanreyes
 
 # Results WIP
 
